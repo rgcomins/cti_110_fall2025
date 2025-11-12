@@ -1,0 +1,29 @@
+matplot_cube.txt
+
+Prompt: "Take this existing Python program
+that draws a square and a triangle, and 
+create a version that displays in 3D using 
+a cube an a pyramid."
+
+AI suggested matplotlib, so we went with that.
+
+Originally, the pyramid was too small, so
+changed line 36:
+pyramid_base_side (as the original value didn't 
+reach far enough)
+
+Reflection:
+
+Was the code correct and complete? Yes,
+other than the change mentioned.
+
+What parts did you have to fix? We made the
+change to the pyramid size
+
+How would you rephrase for better results?
+Not sure. (Probably knowing about matplotlib
+beforehand, would have mentioned it.)
+
+What are the benefits and risks of AI coding?
+Program was complete in a matter of minutes rather than an hour or so.
+actual dimensions of the pyramid had to be adjusted to fit the program.
