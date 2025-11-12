@@ -1,6 +1,6 @@
 #Richard Comins
 #9/17/2025
-#P1HW1
+#P1HW1_python 
 #This program collects information from user, processes information collected and display results to user.
 
 
