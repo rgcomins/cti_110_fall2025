@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flask Index Page</title>
+    
+</head>
+<body>
+    <nav>
+    <a href="{{ url_for('rooms') }}">Rooms</a>
+</nav>
+    <br> <br> 
+
+        <h1> Trip summary for: {{ traveler_name }} </h1>
+        <br> <br> <br>
+        <!--<img src = "{{url_for ("static" , filename = "halekoa_Hotel.webp")}}">-->
+        <p>Dates of Travel: {{ dates }}</p>
+        <p>Room type: {{ type }}</p>
+        <p>Room cost per night: {{ cost }}</p>
+        <p>Total cost for stay: {{ cost_of_stay }}</p>
+        <p>Show Email: {{email }}</p>
+
+        <p><a href="{{ url_for('home_page') }}">Return to home page</a></p>
+    
+</body>
+</html>
