@@ -161,14 +161,6 @@
         return currencyFormatter.format(value);
     }
 
-    // Format number to 2 decimal places without currency symbol, with commas
-    function formatNumber(value) {
-        return Number(value).toLocaleString('en-US', {
-            minimumFractionDigits: 2,
-            maximumFractionDigits: 2
-        });
-    }
-
     // =========================================================================
     // HELPER FUNCTIONS
     // =========================================================================
@@ -249,7 +241,7 @@
         // Totals
         const totals = calculateTotals(roomData.roomCost, nights, ticketPrice, activities.cost);
 
-        // Assemble email data with fully formatted currency values (includes $ and commas)
+        // Assemble email data with all monetary values formatted to 2 decimals
         return {
             to_email: document.getElementById("userEmail").value,
             name: document.getElementById("name").value,
